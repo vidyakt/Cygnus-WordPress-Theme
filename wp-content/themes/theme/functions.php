@@ -60,6 +60,7 @@ add_image_size('banner',1200,800,false);
 //Menu Support
 add_theme_support('menus');
 add_theme_support('post-thumbnails');
+add_theme_support( 'title-tag' );
 
 //Registering menus
 register_nav_menus(

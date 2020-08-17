@@ -3,21 +3,21 @@
 get_header(); 
 ?>
 
-<div class="ftco-blocks-cover-1">
+    <div class="ftco-blocks-cover-1">
        
-    <?php $banner= get_field('banner_settings') ?>
-                <div class="site-section-cover overlay" style="background-image: url('<?php the_post_thumbnail_url('banner'); ?>">
-                    <div class="container">
-                        <div class="row align-items-center justify-content-center">
-                            <div class="col-md-7 text-center">
-                                <h1 class="mb-4 text-white"><?php echo $banner['main_heading'] ?></h1>
-                                <p class="mb-4"><?php echo $banner['description'] ?></p>
+        <?php $banner= get_field('banner_settings') ?>
+                    <div class="site-section-cover overlay" style="background-image: url('<?php the_post_thumbnail_url('banner'); ?>">
+                        <div class="container">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-md-7 text-center">
+                                    <h1 class="mb-4 text-white"><?php echo $banner['main_heading'] ?></h1>
+                                    <p class="mb-4"><?php echo $banner['description'] ?></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+    </div>
 
     <div class="site-section">
             <div class="container">
